@@ -10,8 +10,8 @@ I wanted to learn ROS2 by building, not just reading. Each stage below was a rea
 
 | Stage | Environment | What it does | Status |
 |---|---|---|---|
-| [01 — Turtlesim Wall Avoider](./01_turtlesim_avoider) | `turtlesim` (2D, no physics) | A simulated turtle avoids the edges of its box by turning when it gets close to a boundary | ✅ Done |
-| [02 — Gazebo Obstacle Avoider](./02_gazebo_avoider) | Gazebo (real 3D physics) + TurtleBot3 | A real simulated robot uses lidar to detect and avoid a physical obstacle in real time | ✅ Done |
+| [01 — Turtlesim Wall Avoider](./turtle_avoider) | `turtlesim` (2D, no physics) | A simulated turtle avoids the edges of its box by turning when it gets close to a boundary | ✅ Done |
+| [02 — Gazebo Obstacle Avoider](./gazebo_avoider) | Gazebo (real 3D physics) + TurtleBot3 | A real simulated robot uses lidar to detect and avoid a physical obstacle in real time | ✅ Done |
 | 03 — Smart Clearance Avoider | Gazebo + TurtleBot3 | Instead of always turning the same direction, the robot checks which side has more clearance and turns toward open space | 🔜 Planned |
 | 04 — Nav2 Goal Navigation | Gazebo + Nav2 | Full path planning to a goal point using mapping (SLAM) instead of purely reactive avoidance | 🔜 Planned |
 
